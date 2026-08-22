@@ -1,0 +1,783 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CMapData>
+  <name>prompt_sandy_palms_curvy_lod_placement</name>
+  <parent />
+  <flags value="2" />
+  <contentFlags value="67" />
+  <streamingExtentsMin x="3.4028235e+38" y="3.4028235e+38" z="3.4028235e+38" />
+  <streamingExtentsMax x="-3.4028235e+38" y="-3.4028235e+38" z="-3.4028235e+38" />
+  <entitiesExtentsMin x="3.4028235e+38" y="3.4028235e+38" z="3.4028235e+38" />
+  <entitiesExtentsMax x="-3.4028235e+38" y="-3.4028235e+38" z="-3.4028235e+38" />
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1714.0385" y="3509.0142" z="35.550945" />
+      <rotation x="-0.0" y="-0.0" z="0.49999997" w="0.86602545" />
+      <scaleXY value="1.1367245" />
+      <scaleZ value="1.1367246" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1712.093" y="3527.2422" z="35.448242" />
+      <rotation x="-0.0" y="-0.0" z="-0.8660254" w="0.50000006" />
+      <scaleXY value="1.3806378" />
+      <scaleZ value="1.3806378" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1729.4702" y="3537.275" z="35.019794" />
+      <rotation x="-0.0" y="-0.0" z="-0.8660254" w="0.50000006" />
+      <scaleXY value="1.1341425" />
+      <scaleZ value="1.1341425" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1745.4849" y="3546.521" z="34.818153" />
+      <rotation x="-0.0" y="-0.0" z="-0.8660254" w="0.50000006" />
+      <scaleXY value="1.116835" />
+      <scaleZ value="1.116835" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1763.7477" y="3557.0652" z="34.615883" />
+      <rotation x="-0.0" y="-0.0" z="-0.8660254" w="0.50000006" />
+      <scaleXY value="1.3713368" />
+      <scaleZ value="1.3713368" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1781.7479" y="3568.1099" z="34.464676" />
+      <rotation x="-0.0" y="-0.0" z="-0.86602545" w="0.49999997" />
+      <scaleXY value="0.95123005" />
+      <scaleZ value="0.95123005" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1803.4386" y="3580.1843" z="34.297554" />
+      <rotation x="-0.0" y="-0.0" z="-0.8660254" w="0.50000006" />
+      <scaleXY value="1.112618" />
+      <scaleZ value="1.1126179" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1819.169" y="3589.266" z="33.87321" />
+      <rotation x="-0.0" y="-0.0" z="-0.8660254" w="0.50000006" />
+      <scaleXY value="1.3832494" />
+      <scaleZ value="1.3832494" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1835.2329" y="3598.5405" z="33.48578" />
+      <rotation x="-0.0" y="-0.0" z="-0.8660254" w="0.50000006" />
+      <scaleXY value="1.1420382" />
+      <scaleZ value="1.1420382" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1852.8308" y="3608.7004" z="33.377087" />
+      <rotation x="-0.0" y="-0.0" z="-0.8660254" w="0.50000006" />
+      <scaleXY value="1.0441251" />
+      <scaleZ value="1.0441251" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1868.8602" y="3617.955" z="33.13354" />
+      <rotation x="-0.0" y="-0.0" z="-0.8660254" w="0.50000006" />
+      <scaleXY value="1.0825174" />
+      <scaleZ value="1.0825174" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1884.2574" y="3626.8447" z="33.133537" />
+      <rotation x="-0.0" y="-0.0" z="-0.86602545" w="0.49999997" />
+      <scaleXY value="0.94890004" />
+      <scaleZ value="0.9489001" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1921.4541" y="3648.32" z="32.53235" />
+      <rotation x="-0.0" y="-0.0" z="-0.8660254" w="0.50000006" />
+      <scaleXY value="1.2589648" />
+      <scaleZ value="1.2589647" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1902.0134" y="3637.0962" z="32.736324" />
+      <rotation x="-0.0" y="-0.0" z="-0.8660254" w="0.50000006" />
+      <scaleXY value="1.1336673" />
+      <scaleZ value="1.1336672" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1940.0485" y="3659.0557" z="32.1532" />
+      <rotation x="-0.0" y="-0.0" z="-0.8660254" w="0.50000006" />
+      <scaleXY value="1.2939534" />
+      <scaleZ value="1.2939534" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1961.608" y="3671.503" z="31.956984" />
+      <rotation x="-0.0" y="-0.0" z="-0.8660254" w="0.50000006" />
+      <scaleXY value="1.3045456" />
+      <scaleZ value="1.3045456" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1981.2549" y="3682.8462" z="31.860218" />
+      <rotation x="-0.0" y="-0.0" z="-0.86602545" w="0.49999997" />
+      <scaleXY value="1.1720189" />
+      <scaleZ value="1.1720188" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1999.6453" y="3693.4639" z="31.92779" />
+      <rotation x="-0.0" y="-0.0" z="-0.8660254" w="0.50000006" />
+      <scaleXY value="0.9444593" />
+      <scaleZ value="0.9444593" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="2017.1633" y="3703.578" z="32.05007" />
+      <rotation x="-0.0" y="-0.0" z="-0.8660254" w="0.50000006" />
+      <scaleXY value="1.2331728" />
+      <scaleZ value="1.2331728" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1731.4156" y="3519.0469" z="35.1225" />
+      <rotation x="-0.0" y="-0.0" z="0.49999997" w="0.86602545" />
+      <scaleXY value="1.2102675" />
+      <scaleZ value="1.2102678" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1747.4303" y="3528.293" z="34.92086" />
+      <rotation x="-0.0" y="-0.0" z="0.49999997" w="0.86602545" />
+      <scaleXY value="1.3906692" />
+      <scaleZ value="1.3906693" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1765.6931" y="3538.8372" z="34.71859" />
+      <rotation x="-0.0" y="-0.0" z="0.4999999" w="0.86602545" />
+      <scaleXY value="1.0193404" />
+      <scaleZ value="1.0193406" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1783.6934" y="3549.8818" z="34.567387" />
+      <rotation x="-0.0" y="-0.0" z="0.49999997" w="0.86602545" />
+      <scaleXY value="1.0852389" />
+      <scaleZ value="1.0852392" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1803.4021" y="3560.242" z="34.400257" />
+      <rotation x="-0.0" y="-0.0" z="0.49999985" w="0.8660255" />
+      <scaleXY value="0.98271453" />
+      <scaleZ value="0.98271465" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1819.1324" y="3569.3237" z="33.975914" />
+      <rotation x="-0.0" y="-0.0" z="0.4999999" w="0.86602545" />
+      <scaleXY value="0.9729938" />
+      <scaleZ value="0.97299397" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1836.5645" y="3579.5938" z="33.48578" />
+      <rotation x="-0.0" y="-0.0" z="0.49999997" w="0.86602545" />
+      <scaleXY value="1.3780013" />
+      <scaleZ value="1.3780016" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1902.2382" y="3617.985" z="33.15175" />
+      <rotation x="-0.0" y="-0.0" z="0.4999999" w="0.86602545" />
+      <scaleXY value="0.95594484" />
+      <scaleZ value="0.95594496" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1919.9941" y="3628.2366" z="32.754536" />
+      <rotation x="-0.0" y="-0.0" z="0.49999997" w="0.86602545" />
+      <scaleXY value="1.0850995" />
+      <scaleZ value="1.0850996" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1939.4348" y="3639.4604" z="32.55056" />
+      <rotation x="-0.0" y="-0.0" z="0.49999997" w="0.86602545" />
+      <scaleXY value="1.306057" />
+      <scaleZ value="1.3060572" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1958.0292" y="3650.196" z="32.171406" />
+      <rotation x="-0.0" y="-0.0" z="0.4999999" w="0.86602545" />
+      <scaleXY value="0.9609331" />
+      <scaleZ value="0.9609332" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1979.5887" y="3662.6433" z="31.975195" />
+      <rotation x="-0.0" y="-0.0" z="0.49999997" w="0.86602545" />
+      <scaleXY value="1.0368748" />
+      <scaleZ value="1.036875" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1999.2356" y="3673.9866" z="31.878431" />
+      <rotation x="-0.0" y="-0.0" z="0.49999997" w="0.86602545" />
+      <scaleXY value="1.0241281" />
+      <scaleZ value="1.0241283" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="2017.626" y="3684.6042" z="31.946001" />
+      <rotation x="-0.0" y="-0.0" z="0.49999997" w="0.86602545" />
+      <scaleXY value="1.3380287" />
+      <scaleZ value="1.3380289" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="2035.144" y="3694.7183" z="32.068283" />
+      <rotation x="-0.0" y="-0.0" z="0.49999997" w="0.86602545" />
+      <scaleXY value="1.2033254" />
+      <scaleZ value="1.2033256" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1699.3379" y="3539.8936" z="35.112152" />
+      <rotation x="-0.0" y="-0.0" z="-0.04361936" w="0.99904823" />
+      <scaleXY value="1" />
+      <scaleZ value="1.0000001" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="1692.0663" y="3539.7915" z="35.448418" />
+      <rotation x="-0.0" y="-0.0" z="-0.976296" w="0.21643965" />
+      <scaleXY value="0.99999994" />
+      <scaleZ value="1.0000001" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="2060.1887" y="3741.147" z="31.684877" />
+      <rotation x="-0.0" y="-0.0" z="-0.25881904" w="0.96592593" />
+      <scaleXY value="1" />
+      <scaleZ value="1.0000001" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="2046.8483" y="3733.4448" z="31.638899" />
+      <rotation x="-0.0" y="-0.0" z="0.97629607" w="0.21643941" />
+      <scaleXY value="0.99999994" />
+      <scaleZ value="1.0000001" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="2056.7449" y="3746.7324" z="31.684877" />
+      <rotation x="-0.0" y="-0.0" z="-0.25881904" w="0.96592593" />
+      <scaleXY value="1" />
+      <scaleZ value="1.0000001" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="2043.4044" y="3739.0303" z="31.638899" />
+      <rotation x="-0.0" y="-0.0" z="0.97629607" w="0.21643941" />
+      <scaleXY value="0.99999994" />
+      <scaleZ value="1.0000001" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="2053.7017" y="3752.166" z="31.203445" />
+      <rotation x="-0.0" y="-0.0" z="-0.25881904" w="0.96592593" />
+      <scaleXY value="1" />
+      <scaleZ value="1.0000001" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>prompt_sandy_palms_curvy_lod</archetypeName>
+      <flags value="32" />
+      <guid value="0" />
+      <position x="2040.3606" y="3744.4639" z="31.157467" />
+      <rotation x="-0.0" y="-0.0" z="0.97629607" w="0.21643941" />
+      <scaleXY value="0.99999994" />
+      <scaleZ value="1.0000001" />
+      <parentIndex value="-1" />
+      <lodDist value="800" />
+      <childLodDist value="80" />
+      <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+      <numChildren value="1" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+  </entities>
+  <containerLods itemType="rage__fwContainerLodDef" />
+  <boxOccluders itemType="BoxOccluder" />
+  <occludeModels itemType="OccludeModel" />
+  <physicsDictionaries />
+  <timeCycleModifiers itemType="CTimeCycleModifier" />
+  <carGenerators itemType="CCarGen" />
+  <block>
+    <version value="0" />
+    <flags value="0" />
+    <name />
+    <exportedBy>Sollumz</exportedBy>
+    <owner />
+    <time />
+  </block>
+</CMapData>

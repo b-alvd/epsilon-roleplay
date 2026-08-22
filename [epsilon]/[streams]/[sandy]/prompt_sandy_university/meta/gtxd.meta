@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapParentTxds>
+ <txdRelationships>
+  <Item>
+   <parent>it_ssi_int_props_txd</parent>
+   <child>it_ssi_int_shell_txd</child>
+  </Item>
+ </txdRelationships>
+</CMapParentTxds>

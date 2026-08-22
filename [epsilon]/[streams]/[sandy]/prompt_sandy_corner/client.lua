@@ -1,0 +1,24 @@
+local L0_1, L1_1, L2_1, L3_1, L4_1, L5_1
+L0_1 = {}
+L1_1 = {}
+L1_1.ipl = "i45pt_bowlingalley_int_milo_"
+L2_1 = {}
+L2_1.x = 1931.496826
+L2_1.y = 3893.686768
+L2_1.z = 33.606003
+L1_1.coords = L2_1
+L2_1 = {}
+L3_1 = {}
+L3_1.name = "entityset_gameroom_01"
+L3_1.enable = true
+L4_1 = {}
+L4_1.name = "entityset_gameroom_02"
+L4_1.enable = false
+L5_1 = {}
+L5_1.name = "entityset_bowlset_01"
+L5_1.enable = true
+L2_1[1] = L3_1
+L2_1[2] = L4_1
+L2_1[3] = L5_1
+L1_1.entitySets = L2_1
+L0_1[1] = L1_1

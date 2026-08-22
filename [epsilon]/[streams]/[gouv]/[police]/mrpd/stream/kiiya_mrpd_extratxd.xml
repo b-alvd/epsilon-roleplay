@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureDictionary>
+ <Item>
+  <Name>t_break_art</Name>
+  <Unk32 value="0" />
+  <Usage>UNKNOWN</Usage>
+  <UsageFlags>0</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="512" />
+  <Height value="256" />
+  <MipLevels value="10" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>t_break_art.dds</FileName>
+ </Item>
+ <Item>
+  <Name>clothdenim01_dn</Name>
+  <Unk32 value="0" />
+  <Usage>UNKNOWN</Usage>
+  <UsageFlags>0</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="64" />
+  <Height value="64" />
+  <MipLevels value="7" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>clothdenim01_dn.dds</FileName>
+ </Item>
+ <Item>
+  <Name>t_kiiya_lobby_tv</Name>
+  <Unk32 value="0" />
+  <Usage>UNKNOWN</Usage>
+  <UsageFlags>0</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="1024" />
+  <Height value="1024" />
+  <MipLevels value="11" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>t_kiiya_lobby_tv.dds</FileName>
+ </Item>
+ <Item>
+  <Name>t_LSPD_logo_2</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X64, Y64, X256, Y512, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="512" />
+  <Height value="512" />
+  <MipLevels value="10" />
+  <Format>D3DFMT_DXT5</Format>
+  <FileName>t_LSPD_logo_2.dds</FileName>
+ </Item>
+ <Item>
+  <Name>im_roadmarkings02_s</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, X64, X128, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="256" />
+  <Height value="256" />
+  <MipLevels value="7" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>im_roadmarkings02_s.dds</FileName>
+ </Item>
+ <Item>
+  <Name>prop_vw_boardwheel_d</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="4" />
+  <Height value="4" />
+  <MipLevels value="1" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>prop_vw_boardwheel_d.dds</FileName>
+ </Item>
+ <Item>
+  <Name>prop_m32_poster_01a_d</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, X64, X128, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="256" />
+  <Height value="256" />
+  <MipLevels value="7" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>prop_m32_poster_01a_d.dds</FileName>
+ </Item>
+ <Item>
+  <Name>kiiya_t_wanted_1</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, X64, X128, X512, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="512" />
+  <Height value="512" />
+  <MipLevels value="10" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>kiiya_t_wanted_1.dds</FileName>
+ </Item>
+ <Item>
+  <Name>vdlc23_2_badge</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, X64, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="128" />
+  <Height value="128" />
+  <MipLevels value="6" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>vdlc23_2_badge.dds</FileName>
+ </Item>
+ <Item>
+  <Name>tl_dlc_ch_casino_details_04</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, X64, X128, X512, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="512" />
+  <Height value="512" />
+  <MipLevels value="8" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>tl_dlc_ch_casino_details_04.dds</FileName>
+ </Item>
+ <Item>
+  <Name>im_roadmarkings02im_roadmarkings02_a</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X64, Y64, X256, Y512, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="512" />
+  <Height value="512" />
+  <MipLevels value="8" />
+  <Format>D3DFMT_DXT5</Format>
+  <FileName>im_roadmarkings02im_roadmarkings02_a.dds</FileName>
+ </Item>
+ <Item>
+  <Name>kiiya_t_wanted_2</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, X64, X128, X512, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="512" />
+  <Height value="512" />
+  <MipLevels value="10" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>kiiya_t_wanted_2.dds</FileName>
+ </Item>
+ <Item>
+  <Name>xj_v_usflag</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X64, Y64, X256, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="256" />
+  <Height value="512" />
+  <MipLevels value="7" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>xj_v_usflag.dds</FileName>
+ </Item>
+ <Item>
+  <Name>prop_m32_poster_01a_s</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, X64, X128, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="256" />
+  <Height value="256" />
+  <MipLevels value="7" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>prop_m32_poster_01a_s.dds</FileName>
+ </Item>
+ <Item>
+  <Name>captainwall_kiiya</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X64, Y64, X256, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="256" />
+  <Height value="256" />
+  <MipLevels value="7" />
+  <Format>D3DFMT_DXT5</Format>
+  <FileName>captainwall_kiiya.dds</FileName>
+ </Item>
+ <Item>
+  <Name>vdlc23_2_badge_s</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="64" />
+  <Height value="64" />
+  <MipLevels value="5" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>vdlc23_2_badge_s.dds</FileName>
+ </Item>
+ <Item>
+  <Name>Inst_Plastered_Wall_06_Normal</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>Y512, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="512" />
+  <Height value="512" />
+  <MipLevels value="1" />
+  <Format>D3DFMT_DXT5</Format>
+  <FileName>Inst_Plastered_Wall_06_Normal.dds</FileName>
+ </Item>
+ <Item>
+  <Name>prop_board_pic01_dprop_board_pic01_a</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X64, Y64, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="128" />
+  <Height value="128" />
+  <MipLevels value="6" />
+  <Format>D3DFMT_DXT5</Format>
+  <FileName>prop_board_pic01_dprop_board_pic01_a.dds</FileName>
+ </Item>
+ <Item>
+  <Name>bh1_13_showroom_glass</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="4" />
+  <Height value="4" />
+  <MipLevels value="1" />
+  <Format>D3DFMT_DXT5</Format>
+  <FileName>bh1_13_showroom_glass.dds</FileName>
+ </Item>
+ <Item>
+  <Name>bh1_13_showroom_glass_n</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="4" />
+  <Height value="4" />
+  <MipLevels value="1" />
+  <Format>D3DFMT_DXT5</Format>
+  <FileName>bh1_13_showroom_glass_n.dds</FileName>
+ </Item>
+ <Item>
+  <Name>gz_v_dirtyglass2b_n</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, X64, X128, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="256" />
+  <Height value="256" />
+  <MipLevels value="7" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>gz_v_dirtyglass2b_n.dds</FileName>
+ </Item>
+ <Item>
+  <Name>prop_m31_poster_skin_01</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, X64, X128, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="256" />
+  <Height value="256" />
+  <MipLevels value="7" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>prop_m31_poster_skin_01.dds</FileName>
+ </Item>
+ <Item>
+  <Name>gz_V_SS_OfficeJunk</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, X64, X128, X512, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="512" />
+  <Height value="512" />
+  <MipLevels value="8" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>gz_V_SS_OfficeJunk.dds</FileName>
+ </Item>
+ <Item>
+  <Name>im_roadmarkings02_n</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, X64, X128, X512, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="512" />
+  <Height value="512" />
+  <MipLevels value="8" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>im_roadmarkings02_n.dds</FileName>
+ </Item>
+ <Item>
+  <Name>tl_dlc_ch_casino_metal_01_s</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, X64, X128, X512, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="512" />
+  <Height value="512" />
+  <MipLevels value="8" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>tl_dlc_ch_casino_metal_01_s.dds</FileName>
+ </Item>
+ <Item>
+  <Name>tl_dlc_ch_casino_details_04_n</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, X64, X128, X512, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="512" />
+  <Height value="512" />
+  <MipLevels value="8" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>tl_dlc_ch_casino_details_04_n.dds</FileName>
+ </Item>
+ <Item>
+  <Name>t_kiiya_wallofhistory</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X64, Y64, X256, Y512, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="512" />
+  <Height value="512" />
+  <MipLevels value="10" />
+  <Format>D3DFMT_DXT5</Format>
+  <FileName>t_kiiya_wallofhistory.dds</FileName>
+ </Item>
+ <Item>
+  <Name>kiiya_mrpd_roomplates</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X64, Y64, X256, Y512, Y1024, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="1024" />
+  <Height value="1024" />
+  <MipLevels value="11" />
+  <Format>D3DFMT_DXT5</Format>
+  <FileName>kiiya_mrpd_roomplates.dds</FileName>
+ </Item>
+ <Item>
+  <Name>t_kiiya_wallofhonor</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X64, Y64, X256, Y512, Y1024, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="1024" />
+  <Height value="1024" />
+  <MipLevels value="11" />
+  <Format>D3DFMT_DXT5</Format>
+  <FileName>t_kiiya_wallofhonor.dds</FileName>
+ </Item>
+ <Item>
+  <Name>bh1_13_showroom_glass_s</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="4" />
+  <Height value="4" />
+  <MipLevels value="1" />
+  <Format>D3DFMT_DXT5</Format>
+  <FileName>bh1_13_showroom_glass_s.dds</FileName>
+ </Item>
+ <Item>
+  <Name>t_kiiya_text</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X64, Y64, X256, Y512, Y1024, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="1024" />
+  <Height value="1024" />
+  <MipLevels value="11" />
+  <Format>D3DFMT_DXT5</Format>
+  <FileName>t_kiiya_text.dds</FileName>
+ </Item>
+ <Item>
+  <Name>XJ_V_PH_SIGNS03</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X64, Y64, X256, Y512, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="1024" />
+  <Height value="512" />
+  <MipLevels value="8" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>XJ_V_PH_SIGNS03.dds</FileName>
+ </Item>
+ <Item>
+  <Name>prop_vw_boardedge_d</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X64, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="128" />
+  <Height value="64" />
+  <MipLevels value="5" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>prop_vw_boardedge_d.dds</FileName>
+ </Item>
+ <Item>
+  <Name>xj_v_ph_signs02</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, X64, X128, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="256" />
+  <Height value="256" />
+  <MipLevels value="7" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>xj_v_ph_signs02.dds</FileName>
+ </Item>
+ <Item>
+  <Name>t_lobby_2</Name>
+  <Unk32 value="0" />
+  <Usage>UNKNOWN</Usage>
+  <UsageFlags>0</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="512" />
+  <Height value="512" />
+  <MipLevels value="10" />
+  <Format>D3DFMT_DXT5</Format>
+  <FileName>t_lobby_2.dds</FileName>
+ </Item>
+ <Item>
+  <Name>vdlc23_2_badge_n</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, X64, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="128" />
+  <Height value="128" />
+  <MipLevels value="6" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>vdlc23_2_badge_n.dds</FileName>
+ </Item>
+ <Item>
+  <Name>xj_v_ph_signs04</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, X64, X128, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="256" />
+  <Height value="256" />
+  <MipLevels value="7" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>xj_v_ph_signs04.dds</FileName>
+ </Item>
+ <Item>
+  <Name>t_kiiya_screens_mrpd</Name>
+  <Unk32 value="0" />
+  <Usage>UNKNOWN</Usage>
+  <UsageFlags>0</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="1024" />
+  <Height value="1024" />
+  <MipLevels value="11" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>t_kiiya_screens_mrpd.dds</FileName>
+ </Item>
+ <Item>
+  <Name>ak_dlc_Ex_NormalBlank_n</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="4" />
+  <Height value="4" />
+  <MipLevels value="1" />
+  <Format>D3DFMT_DXT5</Format>
+  <FileName>ak_dlc_Ex_NormalBlank_n.dds</FileName>
+ </Item>
+ <Item>
+  <Name>t_kiiya_wallofhistory2</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X64, Y64, X256, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="512" />
+  <Height value="256" />
+  <MipLevels value="10" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>t_kiiya_wallofhistory2.dds</FileName>
+ </Item>
+ <Item>
+  <Name>rsn_os_v_dirtyglass3_s</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, X64, X128, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="256" />
+  <Height value="256" />
+  <MipLevels value="7" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>rsn_os_v_dirtyglass3_s.dds</FileName>
+ </Item>
+ <Item>
+  <Name>gz_v_bk_flag</Name>
+  <Unk32 value="0" />
+  <Usage>UNKNOWN</Usage>
+  <UsageFlags>0</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="512" />
+  <Height value="256" />
+  <MipLevels value="7" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>gz_v_bk_flag.dds</FileName>
+ </Item>
+ <Item>
+  <Name>h4_prop_h4_board_01a_d</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, X64, X128, X512, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="512" />
+  <Height value="512" />
+  <MipLevels value="10" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>h4_prop_h4_board_01a_d.dds</FileName>
+ </Item>
+ <Item>
+  <Name>t_LSPD_logo</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X64, Y64, X256, Y512, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="512" />
+  <Height value="512" />
+  <MipLevels value="10" />
+  <Format>D3DFMT_DXT5</Format>
+  <FileName>t_LSPD_logo.dds</FileName>
+ </Item>
+ <Item>
+  <Name>new_com_bank_drip01_abnew_com_bank_drip01_al</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X64, Y64, X256, Y512, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="512" />
+  <Height value="512" />
+  <MipLevels value="10" />
+  <Format>D3DFMT_DXT5</Format>
+  <FileName>new_com_bank_drip01_abnew_com_bank_drip01_al.dds</FileName>
+ </Item>
+ <Item>
+  <Name>xj_v_ph_signs01</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, X64, X128, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="256" />
+  <Height value="256" />
+  <MipLevels value="7" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>xj_v_ph_signs01.dds</FileName>
+ </Item>
+ <Item>
+  <Name>rsn_os_v_dirtyglass3rsn_os_v_dirtyglass3_a</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X64, Y64, X256, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="256" />
+  <Height value="256" />
+  <MipLevels value="7" />
+  <Format>D3DFMT_DXT5</Format>
+  <FileName>rsn_os_v_dirtyglass3rsn_os_v_dirtyglass3_a.dds</FileName>
+ </Item>
+ <Item>
+  <Name>Tex_Plastic_01_D</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>Y512, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="512" />
+  <Height value="512" />
+  <MipLevels value="1" />
+  <Format>D3DFMT_DXT5</Format>
+  <FileName>Tex_Plastic_01_D.dds</FileName>
+ </Item>
+ <Item>
+  <Name>mh_v_corkboard_d</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, X64, X128, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="256" />
+  <Height value="256" />
+  <MipLevels value="7" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>mh_v_corkboard_d.dds</FileName>
+ </Item>
+ <Item>
+  <Name>gz_v_ct_map01</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X64, Y64, X256, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="512" />
+  <Height value="256" />
+  <MipLevels value="7" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>gz_v_ct_map01.dds</FileName>
+ </Item>
+ <Item>
+  <Name>ak_dlc_ex1_Chrome</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>Y512, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="512" />
+  <Height value="512" />
+  <MipLevels value="1" />
+  <Format>D3DFMT_DXT5</Format>
+  <FileName>ak_dlc_ex1_Chrome.dds</FileName>
+ </Item>
+ <Item>
+  <Name>xj_v_lsserviceflag</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X64, Y64, X256, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="256" />
+  <Height value="512" />
+  <MipLevels value="10" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>xj_v_lsserviceflag.dds</FileName>
+ </Item>
+ <Item>
+  <Name>prop_vw_boardcorner_d</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="64" />
+  <Height value="64" />
+  <MipLevels value="5" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>prop_vw_boardcorner_d.dds</FileName>
+ </Item>
+ <Item>
+  <Name>t_lspd_logo_3</Name>
+  <Unk32 value="0" />
+  <Usage>UNKNOWN</Usage>
+  <UsageFlags>0</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="512" />
+  <Height value="512" />
+  <MipLevels value="10" />
+  <Format>D3DFMT_DXT5</Format>
+  <FileName>t_lspd_logo_3.dds</FileName>
+ </Item>
+</TextureDictionary>
