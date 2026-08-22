@@ -1,0 +1,107 @@
+/* ── Panel gauche pleine hauteur (style Admin) ── */
+.panel {
+  position: fixed; left: 0; top: 0;
+  width: 520px; height: 100vh;
+  background: rgba(0,0,0,0.6);
+  display: flex; flex-direction: column; overflow: hidden;
+  font-family: var(--font-display); color: #fff;
+  z-index: 9999;
+}
+
+/* ── Bannière ── */
+.banner {
+  height: 110px; flex-shrink: 0; overflow: hidden; position: relative;
+  background-image: url('../../assets/bannieres/interim.png');
+  background-size: cover; background-position: center;
+}
+
+/* ── Corps scrollable ── */
+.body {
+  flex: 1; overflow-y: auto; padding: 0 0 16px;
+  display: flex; flex-direction: column;
+}
+.body::-webkit-scrollbar { width: 2px; }
+.body::-webkit-scrollbar-thumb { background: rgba(255,255,255,.08); }
+
+/* ── Section label ── */
+.slabel {
+  font-size: 0.75vw; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.08em; color: #fff;
+  padding: 18px 22px 12px;
+}
+
+/* ── Quartier grid — 3 colonnes, espacement généreux ── */
+.quartierGrid {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px;
+  padding: 0 22px;
+}
+
+.qBtn {
+  background: rgba(0,0,0,0.3); border: none;
+  color: rgba(255,255,255,0.45); font-family: var(--font-display);
+  font-size: 0.55vw; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+  padding: 16px 8px 14px; cursor: pointer; transition: .12s; text-align: center;
+  display: flex; flex-direction: column; align-items: center; gap: 8px;
+}
+.qBtn i { font-size: 18px; }
+.qBtn:hover { background: color-mix(in srgb, var(--mc,#84cc16) 18%, rgba(0,0,0,.35)); color: #fff; }
+.qBtn.on {
+  background: var(--mc,#84cc16);
+  color: #ffffff;
+}
+
+/* ── Divider ── */
+.divider { height: 1px; background: rgba(255,255,255,0.06); margin: 4px 0; }
+
+/* ── Stop options — 4 colonnes ── */
+.stopGrid {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px;
+  padding: 0 22px;
+  /* hauteur fixe = 3 rangées max — évite que le panel change de taille au changement de quartier */
+  grid-template-rows: repeat(3, auto);
+  min-height: 186px;
+}
+
+.sBtn {
+  background: rgba(0,0,0,0.3); border: none;
+  color: rgba(255,255,255,0.45); font-family: var(--font-display);
+  padding: 14px 6px 12px; cursor: pointer; transition: .12s; text-align: center;
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+}
+.sBtn:hover { background: color-mix(in srgb, var(--mc,#84cc16) 18%, rgba(0,0,0,.35)); color: #fff; }
+.sBtn.on {
+  background: var(--mc,#84cc16);
+  color: #ffffff;
+}
+
+.sCount { font-size: 1.4vw; font-weight: 200; line-height: 1; color: inherit; }
+.sTime  { font-size: 0.46vw; letter-spacing: 0.08em; color: rgba(255,255,255,0.45); }
+.sPay   { font-size: 0.44vw; letter-spacing: 0.04em; color: rgba(255,255,255,0.3); }
+.sBtn.on .sTime { color: rgba(255,255,255,0.85); }
+.sBtn.on .sPay  { color: rgba(255,255,255,0.85); }
+
+/* ── Footer ── */
+.footer {
+  margin-top: auto; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 14px 22px;
+}
+
+.cancelBtn {
+  background: var(--red, #ef4444); border: none; cursor: pointer; transition: .15s;
+  font-family: var(--font-display); font-size: 0.55vw; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: #fff; padding: 11px 22px;
+}
+.cancelBtn:hover { background: var(--red-h, #dc2626); }
+
+.startBtn {
+  display: flex; align-items: center; gap: 10px;
+  background: var(--green, #84cc16); border: none;
+  color: #ffffff; font-family: var(--font-display);
+  font-size: 0.58vw; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+  padding: 11px 22px; cursor: pointer; transition: .15s;
+}
+.startBtn:hover:not(:disabled) { background: var(--green-h, #65a30d); }
+.startBtn:disabled { opacity: .3; cursor: not-allowed; }
+.startBtn i { font-size: 13px; }

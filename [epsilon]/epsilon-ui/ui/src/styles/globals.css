@@ -1,0 +1,68 @@
+@import '@fontsource/montserrat/500.css';
+@import '@fontsource/lato/100.css';
+@import '@fontsource/lato/300.css';
+@import '@fontsource/lato/400.css';
+@import '@fontsource/lato/700.css';
+@import '@fontsource/lato/900.css';
+@import '@fontsource/montserrat/100.css';
+@import '@fontsource/montserrat/200.css';
+@import '@fontsource/montserrat/300.css';
+@import '@fontsource/montserrat/400.css';
+@import '@fontsource/montserrat/500.css';
+@import '@fontsource/montserrat/600.css';
+@import '@fontsource/montserrat/700.css';
+@import '@fontsource/montserrat/800.css';
+@import '@fontsource/montserrat/900.css';
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap");
+
+:root {
+  /* ── Polices ── */
+  --font-ui:      'Lato', system-ui, sans-serif;
+  --font-display: 'Montserrat', sans-serif;
+  --font-hand:    'Caveat', cursive;
+  --font-script:  'Mrs Saint Delafield', cursive;
+
+  /* ── Dégradés ── */
+  --panel-grad: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.82) 45%, rgba(0,0,0,0.92) 65%, rgba(0,0,0,0) 100%);
+  --panel-grad2: linear-gradient(90deg, transparent 0%, rgba(0,0,0,0.5) 40%, rgba(0,0,0,0.85) 100%);
+  --grad:       linear-gradient(160deg, #2e2e2e 0%, #6a6a6a 45%, #2a2a2a 100%);
+
+  /* ── Couleurs ── */
+  --card-bg:    #00000026;
+  --card-sel:   linear-gradient(180deg, rgba(147,51,234,0.5), rgba(147,51,234,0.5));
+  --card-empty: #00000026;
+  --card-hover: #9233ea83;
+  --border:     rgba(255,255,255,0.08);
+  --text:       #e8e8ec;
+  --muted:      #a0a0a8;
+  --dim:        #666670;
+  --accent:     #9333ea;
+  --accent-d:   rgba(108,99,255,0.25);
+  --green:      linear-gradient(180deg,#2abd53,#0f832f);
+  --green-h:    linear-gradient(180deg,#2abd54af,#0f8330b0);
+  --purple:     linear-gradient(180deg,#a855f7,#7e22ce);
+  --purple-h:   linear-gradient(180deg,#a855f7b0,#7e22ceb0);
+  --gray:      linear-gradient(180deg, #747474, #494949);
+  --gray-h:    linear-gradient(180deg, #747474af, #494949b0);
+  --red:   linear-gradient(180deg, #a83232, #721f1f);
+  --red-h: linear-gradient(180deg, #a83232af, #721f1fb0);
+  --r:          6px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body, #root { width: 100%; height: 100%; background: transparent; }
+body { font-family: var(--font-ui); }
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 100%; height: 3px;
+  background: rgba(255,255,255,0.15);
+  border-radius: 2px; outline: none; cursor: pointer;
+}
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 13px; height: 13px; border-radius: 50%;
+  background: var(--accent); cursor: pointer;
+  box-shadow: 0 0 6px rgba(108,99,255,0.4);
+}

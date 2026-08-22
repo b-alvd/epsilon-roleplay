@@ -1,0 +1,74 @@
+/* Liste de slots */
+.list {
+  display: flex; flex-direction: column; justify-content: center; gap: 10px;
+  flex: 1; overflow-y: auto; min-height: 0;
+  padding: 4px 10px;
+}
+.list::-webkit-scrollbar { width: 3px; }
+.list::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 2px; }
+
+/* Carte de slot */
+.card {
+  width: 100%; height: 9vh;
+  display: flex; flex-direction: row; align-items: center;
+  gap: 4vh;
+  font-family: var(--font-display);
+  cursor: pointer; transition: background .15s;
+  user-select: none; overflow: hidden;
+  background: rgba(0,0,0,0.15);
+}
+.card:hover    { background: var(--purple); }
+.card.selected { background: var(--purple); }
+.card.empty    { background: rgba(255,255,255,0.03); border: 1px dashed rgba(255,255,255,0.1); }
+.card.empty:hover { background: rgba(147,51,234,0.12); border-color: rgba(147,51,234,0.4); }
+
+/* Avatar (colonne gauche) */
+.avatar {
+  width: 20%; margin-left: 8%; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.7vw; font-weight: 600; color: rgba(255,255,255,0.35);
+  letter-spacing: 0.5px;
+}
+.avatar-img  { width: 100%; height: 100%; object-fit: cover; }
+.avatar-icon { width: 1.4rem; height: auto; color: rgba(255,255,255,0.2); }
+
+/* Infos texte */
+.info { display: flex; flex-direction: column; gap: 3px; }
+.name                 { font-size: 1vw; font-weight: 300; color: #fff; letter-spacing: 0.5px; font-family: var(--font-display); }
+.card:hover .name     { font-weight: 700; }
+.card.selected .name  { font-weight: 600; }
+.card.empty .name     { color: rgba(255,255,255,0.35); font-weight: 300; }
+
+/* Watermark nom en bas à droite */
+.watermarkEmpty {
+  position: absolute; right: 0; bottom: 32px;
+  padding: 25px 50px;
+  font-size: clamp(40px,6vw,80px); font-weight: 100;
+  letter-spacing: 0.1em;
+  color: #fff;
+  pointer-events: none; user-select: none;
+  line-height: 1; text-align: right;
+  font-family: var(--font-display);
+}
+
+.watermark {
+  position: absolute; right: 0; bottom: 32px;
+  padding: 25px 50px;
+  font-size: clamp(40px,6vw,80px); font-weight: 700;
+  letter-spacing: -0.04em; text-transform: uppercase;
+  color: #fff;
+  pointer-events: none; user-select: none;
+  line-height: 1; text-align: right;
+  font-family: var(--font-display);
+  background: var(--panel-grad2);
+}
+
+/* Badge */
+.badge {
+  position: absolute; right: 0px; top: 24px;
+  background: var(--panel-grad2);
+  font-family: var(--font-display);
+  padding: 20px 50px; font-size: 20px; color: #fff;
+  display: flex; align-items: center; gap: 6px;
+  pointer-events: none;
+}

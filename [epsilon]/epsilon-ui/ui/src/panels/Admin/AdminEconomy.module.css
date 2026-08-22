@@ -1,0 +1,235 @@
+/* ═══════════════════════════════════════════════════
+   AdminEconomy panel — Epsilon (mirrors AdminItems layout)
+   ═══════════════════════════════════════════════════ */
+
+.root {
+  position: fixed; inset: 70px 90px;
+  display: flex; flex-direction: column;
+  background: rgba(0,0,0,.6);
+  font-family: var(--font-ui); font-size: 13px; color: var(--text);
+  z-index: 200;
+}
+
+/* ── Header ── */
+.header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 24px; height: 84px; flex-shrink: 0;
+}
+.headerLeft {
+  display: flex; align-items: center; gap: 12px; flex: 1;
+}
+.backBtn {
+  background: none; border: none; color: #fff;
+  font-size: 15px; cursor: pointer; padding: 0;
+  display: flex; align-items: center; transition: color .15s;
+}
+.backBtn:hover { color: rgba(255,255,255,0.8); }
+.headerTitle {
+  font-family: var(--font-display); font-size: 20px; font-weight: 600;
+  letter-spacing: 0.04em; text-transform: uppercase; color: #fff;
+}
+.refreshBtn {
+  background: none; border: none; cursor: pointer;
+  color: rgba(255,255,255,0.3); font-size: 16px;
+  display: flex; align-items: center; padding: 0 8px; transition: color .15s;
+}
+.refreshBtn:hover { color: rgba(147,51,234,0.8); }
+.plainClose {
+  background: none; border: none; cursor: pointer;
+  color: rgba(255,255,255,0.5); font-size: 36px; line-height: 1;
+  display: flex; align-items: center; padding: 0; transition: color .15s;
+}
+.plainClose:hover { color: #ef4444; }
+
+/* ── Stats row ── */
+.statsRow {
+  display: flex; gap: 1px; flex-shrink: 0;
+  background: rgba(0,0,0,0.3); border-top: 1px solid rgba(255,255,255,0.04);
+}
+.statChip {
+  flex: 1; display: flex; align-items: center; gap: 10px;
+  padding: 12px 20px;
+  background: rgba(255,255,255,0.04);
+}
+.statChip > i {
+  font-size: 18px; color: rgba(147,51,234,0.6); flex-shrink: 0;
+}
+.statBody {
+  display: flex; flex-direction: column; gap: 1px;
+}
+.statVal {
+  font-family: var(--font-display); font-size: 16px; font-weight: 600;
+  color: #fff; font-variant-numeric: tabular-nums; letter-spacing: 0.02em;
+}
+.statLbl {
+  font-size: 10px; color: rgba(255,255,255,0.3); letter-spacing: 0.06em; text-transform: uppercase;
+}
+
+/* ── Body ── */
+.body {
+  flex: 1; display: flex; gap: 0; overflow: hidden;
+  border-top: 1px solid rgba(255,255,255,0.04);
+}
+
+/* ── Markets column ── */
+.col {
+  flex: 1; display: flex; flex-direction: column; overflow: hidden;
+  border-right: 1px solid rgba(255,255,255,0.04);
+}
+.colHeader {
+  font-family: var(--font-display); font-size: 11px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  padding: 10px 20px; flex-shrink: 0; color: rgba(255,255,255,0.4);
+  background: rgba(0,0,0,0.2);
+  display: flex; align-items: center; gap: 8px;
+}
+.colHeader i { font-size: 12px; }
+
+/* ── Markets grid ── */
+.marketsGrid {
+  flex: 1; overflow-y: auto; overflow-x: hidden;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 12px; padding: 16px 20px; align-content: start;
+}
+.marketsGrid::-webkit-scrollbar { width: 3px; }
+.marketsGrid::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.06); }
+
+/* ── Market card ── */
+.marketCard {
+  background: rgba(255,255,255,0.04);
+  display: flex; flex-direction: column; gap: 6px;
+  padding: 14px;
+  border: 1px solid rgba(255,255,255,0.06);
+  transition: border-color .2s;
+}
+.marketCard:hover { border-color: rgba(147,51,234,0.25); }
+
+.marketCardTop {
+  display: flex; align-items: center; justify-content: space-between;
+}
+.marketMeta {
+  display: flex; align-items: center; gap: 7px;
+}
+.marketIcon {
+  font-size: 14px; color: rgba(147,51,234,0.7);
+}
+.marketLabel {
+  font-family: var(--font-display); font-size: 11px; font-weight: 600;
+  letter-spacing: 0.07em; text-transform: uppercase;
+  color: rgba(255,255,255,0.55);
+}
+.marketPct {
+  font-family: var(--font-display); font-size: 11px; font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.marketPrice {
+  font-family: var(--font-display); font-size: 24px; font-weight: 700;
+  color: #fff; font-variant-numeric: tabular-nums; line-height: 1;
+}
+.marketUnit {
+  font-size: 14px; font-weight: 400; color: rgba(255,255,255,0.35);
+  margin-left: 2px;
+}
+.marketBase {
+  font-size: 10px; color: rgba(255,255,255,0.25);
+  font-variant-numeric: tabular-nums;
+}
+
+.sparklineWrap {
+  margin: 4px 0 2px;
+}
+
+/* ── Supply/demand bars ── */
+.bars { display: flex; flex-direction: column; gap: 4px; }
+.barWrap {
+  display: flex; align-items: center; gap: 6px;
+}
+.barLabel {
+  font-size: 9px; color: rgba(255,255,255,0.3); width: 26px;
+  text-align: right; flex-shrink: 0; font-family: var(--font-display);
+  letter-spacing: 0.04em; text-transform: uppercase;
+}
+.barTrack {
+  flex: 1; height: 3px; background: rgba(255,255,255,0.07);
+  overflow: hidden;
+}
+.barFill { height: 100%; transition: width .4s ease; }
+.barVal {
+  font-size: 9px; color: rgba(255,255,255,0.25); width: 28px;
+  font-family: var(--font-display); font-variant-numeric: tabular-nums;
+}
+
+/* ── Market event buttons ── */
+.evtRow {
+  display: flex; gap: 3px; margin-top: 4px;
+}
+.evtBtn {
+  flex: 1; display: flex; align-items: center; justify-content: center; gap: 3px;
+  padding: 4px 0; border: none; cursor: pointer; font-size: 9px;
+  font-family: var(--font-display); font-weight: 700; letter-spacing: 0.04em;
+  text-transform: uppercase; transition: .12s;
+}
+.evtBtn i { font-size: 9px; }
+.evtAmber { background: rgba(245,158,11,0.12); color: rgba(245,158,11,0.7); }
+.evtAmber:hover { background: rgba(245,158,11,0.25); color: rgba(245,158,11,1); }
+.evtBlue  { background: rgba(96,165,250,0.12); color: rgba(96,165,250,0.7); }
+.evtBlue:hover  { background: rgba(96,165,250,0.25); color: rgba(96,165,250,1); }
+.evtRed   { background: rgba(239,68,68,0.12);  color: rgba(239,68,68,0.7); }
+.evtRed:hover   { background: rgba(239,68,68,0.25);  color: rgba(239,68,68,1); }
+.evtGray  { background: rgba(255,255,255,0.05); color: rgba(255,255,255,0.3); }
+.evtGray:hover  { background: rgba(255,255,255,0.10); color: rgba(255,255,255,0.6); }
+
+/* ── Transactions column ── */
+.colTx {
+  width: 320px; flex-shrink: 0;
+  display: flex; flex-direction: column; overflow: hidden;
+}
+.txList {
+  flex: 1; overflow-y: auto; display: flex; flex-direction: column;
+}
+.txList::-webkit-scrollbar { width: 3px; }
+.txList::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.06); }
+
+.txRow {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  padding: 9px 16px;
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+}
+.txRow:nth-child(odd)  { background: rgba(255,255,255,0.025); }
+.txRow:nth-child(even) { background: rgba(255,255,255,0.055); }
+
+.txLeft {
+  display: flex; flex-direction: column; gap: 2px; min-width: 0;
+}
+.txBadge {
+  display: inline-flex; align-items: center;
+  padding: 1px 6px; font-size: 9px; font-weight: 700;
+  letter-spacing: 0.07em; text-transform: uppercase;
+  font-family: var(--font-display);
+  border: 1px solid transparent; align-self: flex-start;
+}
+.txLabel {
+  font-size: 11px; color: rgba(255,255,255,0.35);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  max-width: 160px;
+}
+
+.txRight {
+  display: flex; flex-direction: column; align-items: flex-end; gap: 2px; flex-shrink: 0;
+}
+.txAmount {
+  font-family: var(--font-display); font-size: 12px; font-weight: 700;
+  font-variant-numeric: tabular-nums; white-space: nowrap;
+}
+.txDate {
+  font-size: 9px; color: rgba(255,255,255,0.2);
+  font-family: var(--font-display); white-space: nowrap;
+}
+
+/* ── Empty state ── */
+.empty {
+  padding: 40px 0; text-align: center;
+  color: rgba(255,255,255,0.15); font-size: 12px;
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+}

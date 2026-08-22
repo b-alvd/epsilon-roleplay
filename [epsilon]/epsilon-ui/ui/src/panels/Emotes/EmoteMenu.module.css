@@ -1,0 +1,230 @@
+/* Emotes panel — variables identiques à Bank/Admin */
+
+.panel {
+  position: fixed;
+  left: 0; top: 0;
+  width: 520px;
+  height: 100vh;
+  background: rgba(0,0,0,0.65);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: var(--font-display);
+  color: var(--text);
+}
+
+/* ── Banner ── */
+.banner {
+  height: 110px;
+  flex-shrink: 0;
+  position: relative;
+  background: linear-gradient(135deg, #4c1d95 0%, #1e1b4b 55%, rgba(0,0,0,0.95) 100%);
+  overflow: hidden;
+}
+.bannerOverlay {
+  position: absolute; inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.05) 100%);
+  pointer-events: none;
+}
+.bannerContent {
+  position: absolute;
+  bottom: 14px; left: 20px;
+  display: flex; flex-direction: column; gap: 3px;
+}
+.bannerEyebrow {
+  font-size: 9px; font-weight: 700;
+  letter-spacing: 0.18em; text-transform: uppercase;
+  color: rgba(167,139,250,0.8);
+}
+.bannerTitle {
+  font-size: 22px; font-weight: 700;
+  letter-spacing: 0.05em; text-transform: uppercase;
+  color: #fff; line-height: 1;
+}
+.bannerSub {
+  font-size: 9px; font-weight: 500;
+  letter-spacing: 0.08em;
+  color: rgba(255,255,255,0.3);
+}
+
+.bannerActions {
+  position: absolute;
+  top: 12px; right: 14px;
+  display: flex; gap: 6px;
+}
+.stopBtn, .closeBtn {
+  background: rgba(0,0,0,0.45);
+  border: none;
+  color: rgba(255,255,255,0.5);
+  width: 28px; height: 28px;
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 12px; transition: .15s;
+}
+.stopBtn:hover { color: #ef4444; background: rgba(239,68,68,.12); }
+.closeBtn:hover { color: #ef4444; background: rgba(239,68,68,.12); }
+
+/* ── Onglets ── */
+.tabs {
+  display: flex;
+  align-items: stretch;
+  background: rgba(0,0,0,0.45);
+  height: 56px;
+  flex-shrink: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.tabs::-webkit-scrollbar { display: none; }
+
+.tab {
+  flex: 1; min-width: 52px;
+  border: none; background: transparent;
+  color: rgba(255,255,255,0.25);
+  font-family: var(--font-display);
+  font-size: 8px; font-weight: 600;
+  letter-spacing: 0.10em; text-transform: uppercase;
+  cursor: pointer; transition: .15s;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center; gap: 5px;
+  flex-shrink: 0;
+}
+.tab i { font-size: 15px; }
+.tab:hover { color: rgba(255,255,255,0.55); background: rgba(255,255,255,.04); }
+.tabLabel { font-size: 7px; font-weight: 700; letter-spacing: 0.08em; }
+.tabActive { color: #fff !important; background: rgba(147,51,234,0.25) !important; }
+
+/* ── Recherche ── */
+.searchRow {
+  display: flex; align-items: center; gap: 8px;
+  padding: 0 16px; height: 38px;
+  background: rgba(0,0,0,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  flex-shrink: 0;
+}
+.searchRow > i { font-size: 11px; color: rgba(255,255,255,0.2); }
+.searchInput {
+  flex: 1; background: none; border: none; outline: none;
+  color: #fff; font-family: var(--font-display);
+  font-size: 12px; font-weight: 500;
+}
+.searchInput::placeholder { color: rgba(255,255,255,0.18); }
+.clearBtn {
+  background: none; border: none;
+  color: rgba(255,255,255,0.2); font-size: 16px;
+  cursor: pointer; line-height: 1; padding: 0;
+}
+.clearBtn:hover { color: rgba(255,255,255,0.6); }
+.resultCount {
+  font-size: 9px; font-weight: 700;
+  color: rgba(167,139,250,0.85);
+  background: rgba(147,51,234,0.12);
+  padding: 2px 8px; letter-spacing: 0.06em;
+}
+
+/* ── Grille ── */
+.grid {
+  flex: 1; overflow-y: auto;
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 1px; background: rgba(0,0,0,0.25);
+  align-content: start;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(147,51,234,0.25) transparent;
+}
+.grid::-webkit-scrollbar { width: 3px; }
+.grid::-webkit-scrollbar-thumb { background: rgba(147,51,234,0.25); }
+
+.empty {
+  grid-column: 1 / -1;
+  display: flex; flex-direction: column;
+  align-items: center; gap: 10px;
+  padding: 60px 0;
+  color: rgba(255,255,255,0.12);
+  font-size: 12px; font-weight: 600; letter-spacing: 0.08em;
+}
+.empty i { font-size: 28px; }
+
+.card {
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: 6px; padding: 14px 8px 10px;
+  background: rgba(0,0,0,0.4);
+  border: none; cursor: pointer;
+  color: rgba(255,255,255,0.38);
+  font-family: var(--font-display);
+  position: relative; transition: .12s;
+  min-height: 76px;
+}
+.card > i { font-size: 18px; transition: color .12s; }
+.card:hover { background: rgba(147,51,234,0.2); color: #fff; }
+.card:hover > i { color: #a855f7; }
+.cardPlaying { background: rgba(147,51,234,0.3) !important; color: #fff !important; }
+.cardPlaying > i { color: #a855f7 !important; }
+.cardAssign:hover { background: rgba(147,51,234,0.25) !important; }
+
+.cardLabel {
+  font-size: 9px; font-weight: 700;
+  letter-spacing: 0.04em; text-transform: uppercase;
+  text-align: center; line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+  overflow: hidden; max-width: 100%; padding: 0 4px;
+}
+
+.badge {
+  position: absolute; top: 4px; right: 4px;
+  font-size: 7px; font-weight: 800; letter-spacing: 0.06em;
+  color: #c084fc; background: rgba(147,51,234,0.22);
+  padding: 1px 5px;
+}
+.walkBadge {
+  position: absolute; top: 4px; left: 4px;
+  font-size: 10px; color: rgba(74,222,128,0.55);
+}
+
+/* ── Numpad ── */
+.numpadSection {
+  flex-shrink: 0;
+  background: rgba(0,0,0,0.45);
+  border-top: 1px solid rgba(255,255,255,0.05);
+  padding: 10px 16px 14px;
+}
+.numpadHeader {
+  display: flex; align-items: center; gap: 7px;
+  margin-bottom: 8px;
+  font-size: 9px; font-weight: 700;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  color: rgba(255,255,255,0.2);
+}
+.numpadHeader > i { font-size: 11px; }
+.assignHint {
+  margin-left: auto; font-size: 9px;
+  color: rgba(167,139,250,0.9); font-weight: 700;
+}
+.assignHint strong { color: #c084fc; }
+
+.numpad {
+  display: grid; grid-template-columns: repeat(5, 1fr); gap: 3px;
+}
+.numSlot {
+  display: flex; flex-direction: column;
+  align-items: center; gap: 3px;
+  padding: 7px 4px; min-height: 44px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.06);
+  cursor: pointer; transition: .12s; justify-content: center;
+}
+.numSlot:hover { background: rgba(147,51,234,0.15); border-color: rgba(167,139,250,0.3); }
+.numFilled { border-color: rgba(147,51,234,0.2); background: rgba(147,51,234,0.07); }
+.numAssigning { border-color: #9333ea !important; background: rgba(147,51,234,0.22) !important; }
+
+.numKey {
+  font-size: 7px; font-weight: 800; letter-spacing: 0.08em;
+  color: rgba(255,255,255,0.18); text-transform: uppercase;
+}
+.numLabel {
+  font-size: 8px; font-weight: 700;
+  color: rgba(255,255,255,0.5); text-align: center;
+  overflow: hidden; text-overflow: ellipsis;
+  white-space: nowrap; max-width: 100%; padding: 0 2px;
+}
+.numEmpty { font-size: 14px; color: rgba(255,255,255,0.08); line-height: 1; }

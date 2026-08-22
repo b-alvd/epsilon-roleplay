@@ -1,0 +1,166 @@
+/* ═══════════════════════════════════════════════════
+   ATM panel — Epsilon design system
+   ═══════════════════════════════════════════════════ */
+
+.root {
+  position: fixed; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  z-index: 200;
+}
+
+.panel {
+  width: 380px;
+  background: rgba(0,0,0,.6);
+  font-family: var(--font-ui); font-size: 13px; color: var(--text);
+  display: flex; flex-direction: column;
+}
+
+/* ── Header ── */
+.header {
+  display: flex; align-items: center; gap: 10px;
+  padding: 0 18px; height: 60px; flex-shrink: 0;
+}
+.hIcon {
+  width: 30px; height: 30px;
+  background: rgba(147,51,234,0.6); border-radius: 2px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 14px; color: #fff; flex-shrink: 0;
+}
+.hInfo { flex: 1; }
+.hTitle {
+  font-family: var(--font-display); font-size: 14px; font-weight: 600;
+  letter-spacing: 0.04em; text-transform: uppercase; color: #fff;
+}
+.hSub {
+  font-size: 9px; color: rgba(255,255,255,.35);
+  letter-spacing: 0.14em; text-transform: uppercase; margin-top: 1px;
+}
+.hClose {
+  background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1);
+  color: rgba(255,255,255,0.5); cursor: pointer; transition: .15s;
+  display: flex; align-items: center; justify-content: center;
+  padding: 6px 10px; font-size: 14px; line-height: 1;
+}
+.hClose:hover { border-color: rgba(239,68,68,.5); color: #ef4444; background: rgba(239,68,68,0.08); }
+
+/* ── Bloc info retrait ── */
+/* infoBlock ne contient QUE des infoRow → nth-child fiable */
+.withdrawWrap { display: flex; flex-direction: column; }
+
+.infoBlock { display: flex; flex-direction: column; }
+.infoRow {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 11px 18px;
+}
+.infoRow:nth-child(odd)  { background: rgba(255,255,255,0.03); }
+.infoRow:nth-child(even) { background: rgba(255,255,255,0.08); }
+.infoLabel { font-size: 12px; color: rgba(255,255,255,.4); }
+.infoVal   {
+  font-family: var(--font-display); font-size: 14px; font-weight: 700;
+  color: #fff; font-variant-numeric: tabular-nums;
+}
+.valWarn { color: #f87171 !important; }
+
+/* ── Sous-titre section ── */
+.subHeader {
+  background: rgba(255,255,255,0.08);
+  color: rgba(255,255,255,.4); font-size: 10px; font-weight: 700;
+  font-family: var(--font-display); letter-spacing: 0.1em; text-transform: uppercase;
+  padding: 6px 18px;
+}
+
+/* ── Presets ── */
+/* presets ne contient QUE des preset → nth-child fiable */
+.presets { display: grid; grid-template-columns: repeat(3, 1fr); }
+.preset {
+  background: none; border: none;
+  color: rgba(255,255,255,.55); font-family: var(--font-display);
+  font-size: 12px; font-weight: 600;
+  padding: 11px 4px; cursor: pointer; transition: .12s; text-align: center;
+}
+.preset:nth-child(odd)  { background: rgba(255,255,255,0.03); }
+.preset:nth-child(even) { background: rgba(255,255,255,0.08); }
+.preset:hover  { background: rgba(147,51,234,0.2) !important; color: #fff; }
+.presetOn      { background: rgba(147,51,234,0.35) !important; color: #fff !important; }
+
+/* ── Input montant ── */
+.inputRow { display: flex; align-items: stretch; }
+.input {
+  flex: 1; background: rgba(255,255,255,0.03); border: none;
+  color: #fff; font-family: var(--font-display);
+  font-size: 15px; font-weight: 600;
+  padding: 11px 16px; outline: none; font-variant-numeric: tabular-nums;
+}
+.input::placeholder { color: rgba(255,255,255,.2); font-weight: 400; font-size: 12px; }
+.input:focus { background: rgba(147,51,234,0.08); }
+.inputSfx {
+  display: flex; align-items: center;
+  padding: 0 14px; background: rgba(255,255,255,0.08);
+  color: rgba(255,255,255,.35); font-family: var(--font-display);
+  font-size: 13px; font-weight: 700;
+}
+
+/* ── Bouton retirer ── */
+.withdrawBtn {
+  width: 100%; padding: 13px; border: none; border-radius: 2px;
+  background: var(--purple); color: #fff;
+  font-family: var(--font-display); font-size: 12px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  cursor: pointer; transition: .15s;
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+}
+.withdrawBtn:hover:not(:disabled) { background: var(--purple-h); }
+.withdrawBtn:disabled { opacity: .3; cursor: not-allowed; }
+
+/* ── PIN ── */
+.pinWrap {
+  display: flex; flex-direction: column; align-items: center;
+}
+.pinTitle {
+  font-family: var(--font-display); font-size: 14px; font-weight: 600;
+  color: #fff; padding: 20px 18px 4px; text-align: center;
+}
+.pinHint {
+  font-size: 11px; color: rgba(255,255,255,.3);
+  padding: 0 18px 18px; text-align: center;
+}
+.pinDots {
+  display: flex; gap: 14px; padding: 0 0 20px;
+}
+.dotOff {
+  width: 12px; height: 12px; border-radius: 50%;
+  border: 1.5px solid rgba(168,85,247,.3); background: transparent;
+  transition: background .15s, border-color .15s;
+}
+.dotOn {
+  width: 12px; height: 12px; border-radius: 50%;
+  background: rgba(147,51,234,0.8); border: 1.5px solid rgba(147,51,234,0.8);
+  transition: background .15s, border-color .15s;
+}
+
+/* ── Clavier PIN ── */
+/* keypad ne contient QUE des key → nth-child fiable */
+.keypad { display: grid; grid-template-columns: repeat(3, 1fr); width: 100%; }
+.key {
+  background: none; border: none; color: #fff;
+  font-family: var(--font-display); font-size: 16px; font-weight: 600;
+  height: 52px; cursor: pointer; transition: .1s;
+  display: flex; align-items: center; justify-content: center;
+}
+.key:nth-child(odd)  { background: rgba(255,255,255,0.03); }
+.key:nth-child(even) { background: rgba(255,255,255,0.08); }
+.key:hover  { background: rgba(147,51,234,0.2) !important; }
+.key:active { background: rgba(147,51,234,0.35) !important; }
+.keyDel { font-size: 13px; background: var(--red) !important; color: #fff; }
+.keyDel:hover { background: var(--red-h) !important; }
+.keyZero { grid-column: 2; }
+.keyOk { background: var(--green) !important; color: #fff; font-size: 11px; letter-spacing: 0.08em; }
+.keyOk:hover:not(:disabled) { background: var(--green-h) !important; }
+.keyOk:disabled { opacity: .3; cursor: not-allowed; }
+
+/* ── Erreur PIN ── */
+.pinError {
+  width: 100%; padding: 8px 18px;
+  background: rgba(248,113,113,.08); border-top: 1px solid rgba(248,113,113,.15);
+  font-size: 11px; color: #f87171; text-align: center;
+}

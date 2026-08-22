@@ -1,0 +1,194 @@
+/* ── Notification stack ── */
+.notifStack {
+  position: fixed; bottom: 215px; left: 30px; z-index: 8500;
+  display: flex; flex-direction: column; gap: 10px; pointer-events: none;
+}
+
+.notif {
+  display: flex; width: 270px; flex-direction: column;
+  justify-content: center; align-items: center;
+  pointer-events: auto; cursor: pointer;
+}
+.notifBodyBasic {
+  display: flex; padding: 10px; align-items: center; gap: 10px; align-self: stretch;
+  border-radius: 3px 3px 0 0; background: #00000080;
+}
+.notifBody {
+  display: flex; padding: 10px; align-items: center; gap: 5px; align-self: stretch;
+  border-radius: 3px 3px 0 0; background: #00000080;
+}
+.notifIconWrap {
+  width: 20px; height: 20px; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+}
+.notifIcon { font-size: 14px; color: #fff; line-height: 1; }
+.notifText {
+  flex: 1 0 0; color: #fff;
+  text-shadow: 0px 4px 4px rgba(0,0,0,.25);
+  font-family: Montserrat, sans-serif; font-size: 10px;
+  font-weight: 500; line-height: normal; text-transform: uppercase;
+}
+.notifTimer { height: 4px; width: 100%; background: #747474; }
+.notifTimerBar {
+  height: 100%; width: 100%; background: var(--nc, linear-gradient(180deg,#419ff1,#0080f1));
+  transform-origin: left;
+  animation: notifTimerDrain var(--notif-dur, 5s) linear forwards;
+}
+@keyframes notifTimerDrain { from { transform: scaleX(1) } to { transform: scaleX(0) } }
+
+/* Advanced */
+.notifBodyAdv {
+  display: flex; flex-direction: column; padding: 10px 12px; gap: 8px;
+  align-self: stretch; border-radius: 3px 3px 0 0; background: #00000080;
+}
+.notifAdvTop { display: flex; align-items: center; gap: 10px; }
+.notifImg {
+  width: 52px; height: 52px; flex-shrink: 0; display: block;
+  object-fit: cover; padding: 2px;
+}
+.notifAdvHeader { display: flex; flex-direction: column; gap: 3px; flex: 1; min-width: 0; }
+.notifTitle {
+  font-family: Montserrat, sans-serif; font-size: 10px; font-weight: 700;
+  letter-spacing: 0.08em; text-transform: uppercase; color: rgba(255,255,255,0.95);
+}
+.notifSubtitle {
+  font-family: Montserrat, sans-serif; font-size: 8px; letter-spacing: 0.06em;
+  text-transform: uppercase; color: rgba(255,255,255,0.50);
+}
+.notifAdvText {
+  font-family: Montserrat, sans-serif; font-size: 9px; font-weight: 600;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: rgba(255,255,255,0.88); line-height: 1.4;
+}
+
+/* Weazel */
+.notifWeazel {
+  display: flex; width: 270px; flex-direction: column;
+  justify-content: center; align-items: center;
+}
+.notifWeazelContent {
+  display: flex; width: 270px; flex-direction: column; align-items: flex-start;
+}
+.notifWeazelBanner {
+  height: 44px; align-self: stretch; border-radius: 3px 3px 0 0;
+  object-fit: cover; width: 100%;
+}
+.notifWeazelAffiche { height: 243px; align-self: stretch; object-fit: cover; width: 100%; }
+.notifWeazelBar {
+  display: flex; padding: 10px; align-items: center; gap: 10px;
+  align-self: stretch; background: #00000080;
+}
+.notifWeazelBarText {
+  flex: 1 0 0; color: #fff; text-shadow: 0px 4px 4px rgba(0,0,0,.25);
+  font-family: Montserrat, sans-serif; font-size: 10px; font-weight: 500;
+  line-height: normal; text-transform: uppercase;
+}
+
+/* ── Progress bar ── */
+.progressBarWrap {
+  position: fixed; bottom: 50px; left: 50%; transform: translateX(-50%);
+  width: 320px; display: flex; flex-direction: column; align-items: center;
+  pointer-events: none; z-index: 8600;
+  animation: pbFadeIn 0.3s ease;
+}
+@keyframes pbFadeIn { from { opacity:0 } to { opacity:1 } }
+.progressBarText {
+  width: 100%; text-align: center;
+  font-family: Montserrat, sans-serif; font-style: italic; font-size: 16px;
+  color: #fff; margin-bottom: 5px; text-shadow: 0 2px 4px rgba(0,0,0,.5);
+}
+.progressBarContainer {
+  width: 100%; height: 10px; background-color: #000;
+  border-radius: 4px; overflow: hidden;
+}
+.progressBarFill {
+  height: 100%; background-color: #ebebeb; border-radius: 4px;
+  width: 0%; transition: none;
+  animation: pbGrow linear forwards;
+  animation-duration: var(--pb-dur, 5s);
+}
+@keyframes pbGrow { from { width: 0% } to { width: 100% } }
+
+/* ── Dialog (keyboard / choice) ── */
+.dialogOverlay {
+  position: fixed; inset: 0; display: flex;
+  justify-content: center; align-items: center; z-index: 9000;
+}
+.dialogBox {
+  background: linear-gradient(90deg, #0000008c, #00000075 54.69%, #00000030);
+  padding: 20px; border-radius: 3px; width: fit-content;
+  min-width: 300px; display: flex; flex-direction: column; gap: 15px;
+}
+.dialogHeader { display: flex; flex-direction: row; align-items: center; gap: 10px; }
+.dialogHeaderIcon { width: 15px; height: 15px; }
+.dialogTitle {
+  color: #fff; text-transform: uppercase;
+  font-family: Montserrat, sans-serif; font-size: 20px; font-weight: 700;
+  margin: 0; white-space: nowrap;
+}
+.dialogInput {
+  background-color: #0003; border: none; padding: 10px;
+  color: #fff; border-radius: 3px;
+  font-family: Montserrat, sans-serif; font-size: 14px; outline: none;
+  width: 100%; box-sizing: border-box;
+}
+.dialogInput:focus { background-color: #0000004d; }
+.dialogButtons { display: flex; gap: 10px; justify-content: flex-end; flex-wrap: wrap; }
+.dialogBtn {
+  background: linear-gradient(90deg, #0000008c, #00000075 54.69%, #00000030);
+  border: none; padding: 8px 15px; color: #fff; border-radius: 3px;
+  cursor: pointer; font-family: Montserrat, sans-serif; transition: all .2s;
+  font-size: 13px; text-transform: uppercase; font-weight: 600; min-width: 100px;
+}
+.dialogBtn:hover { background: linear-gradient(90deg, #000000a6, #0000008f 54.69%, #0000004a); }
+.dialogBtnGreen { background: linear-gradient(180deg, #33963c, #1eb45a94); }
+.dialogBtnGreen:hover { background: linear-gradient(180deg, #33963c, #1eb45ac7); }
+.dialogBtnRed { background: linear-gradient(180deg, #963c3c, #b41e1e94); }
+.dialogBtnRed:hover { background: linear-gradient(180deg, #963c3c, #b41e1ec7); }
+.dialogBtnBlue { background: linear-gradient(180deg, #5e6cb6, #5e6cb6cc); }
+.dialogBtnBlue:hover { background: linear-gradient(180deg, #5e6cb6, #5e6cb6); }
+
+/* ── Help notification ── */
+.helpNotifWrap {
+  position: fixed; top: 1rem; left: 1.9rem; z-index: 9999;
+  animation: helpSlideIn 0.5s ease;
+}
+.helpNotifWrapOut { animation: helpSlideOut 0.5s ease forwards; }
+@keyframes helpSlideIn { from { opacity:0; transform:translate(-100%) } to { opacity:1; transform:translate(0) } }
+@keyframes helpSlideOut { from { opacity:1; transform:translate(0) } to { opacity:0; transform:translate(-100%) } }
+.helpNotif {
+  background: linear-gradient(90deg, #0000008c, #00000075 54.69%, #00000030);
+  border-radius: 3px; padding: 10px 20px;
+}
+.helpText {
+  display: flex; align-items: center; gap: 8px;
+  color: #fff; font-family: Montserrat, sans-serif; font-size: 14px;
+  font-weight: 400; white-space: nowrap; margin: 0;
+}
+.helpKey {
+  display: inline-block; background: #fff; color: #000;
+  padding: 3px 6px; border-radius: 4px;
+  font-family: Montserrat, sans-serif; font-size: 12px;
+  font-weight: 600; text-transform: uppercase;
+}
+
+/* ── Instructional buttons ── */
+.instructionalWrap {
+  position: fixed; display: flex; justify-content: center;
+  bottom: 2.2vh; right: 2.2vh; z-index: 999; pointer-events: none;
+  font-family: Montserrat, sans-serif;
+  animation: ibFadeIn 0.3s ease;
+}
+@keyframes ibFadeIn { from { opacity:0 } to { opacity:1 } }
+.instructionalBtn {
+  display: flex; margin-left: 12px; border-radius: 3px;
+  background: #0000008c; color: #fff;
+  font-size: 13px; text-transform: uppercase;
+  align-items: center; padding-left: 16px;
+}
+.instructionalAction { margin-right: 16px; }
+.instructionalKey {
+  border-radius: 0 3px 3px 0; background: #fff; color: #000;
+  font-size: 19px; font-weight: 700; line-height: normal;
+  padding: 3px 8px; margin: 0;
+}
